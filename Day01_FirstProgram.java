@@ -8,7 +8,7 @@
  * compiler isn't mad at me.
  * Let's grind! 🚀
  */
-class First {
+class Day01_FirstProgram {
     /**
      * The main method: The entry point of my destiny.
      * This is where the JVM kicks down the door and starts executing my master
