@@ -1,6 +1,6 @@
 
 /**
- * Day 01: Age Problem - The Legal Adulting Checker 🎂
+ * Day 01: Age Problem - The Legal Adulting Checker
  * 
  * Problem: Given an age, determine if someone is an adult or not.
  * Simple enough, right? But wait, this is the foundation of understanding conditionals!
@@ -24,7 +24,7 @@ public class Day01_AgeProblem {
      * 2. Check if age >= 18 (the universal "you're responsible now" threshold)
      * 3. Print "Adult" or "Not Adult" accordingly
      * 
-     * Time Complexity: O(1) - Just one comparison, lightning fast ⚡
+     * Time Complexity: O(1) - Just one comparison, lightning fast
      * Space Complexity: O(1) - Only storing one integer
      * 
      * @param args Command line arguments (still ignoring these like a pro)
@@ -41,7 +41,7 @@ public class Day01_AgeProblem {
         // The moment of truth: Are you old enough to vote, drive, and make questionable
         // decisions?
         if (age >= 18) {
-            // Congrats! You're legally an adult. Taxes and responsibilities await. 🎉
+            // Congrats! You're legally an adult. Taxes and responsibilities await.
             System.out.println("Adult");
         } else {
             // Sorry kiddo, enjoy the freedom while it lasts. Adulting is overrated anyway.
