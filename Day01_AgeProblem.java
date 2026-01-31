@@ -13,7 +13,7 @@
  * Except they don't use Java. Probably.
  */
 
-import java.util.*; // Fixed that sneaky colon! Semicolons only, Java doesn't do Python vibes.
+import java.util.*;
 
 public class Day01_AgeProblem {
     /**
@@ -26,8 +26,6 @@ public class Day01_AgeProblem {
      * 
      * Time Complexity: O(1) - Just one comparison, lightning fast
      * Space Complexity: O(1) - Only storing one integer
-     * 
-     * @param args Command line arguments (still ignoring these like a pro)
      */
     public static void main(String[] args) {
         // Fire up the Scanner! This bad boy reads input from the console.
@@ -47,10 +45,5 @@ public class Day01_AgeProblem {
             // Sorry kiddo, enjoy the freedom while it lasts. Adulting is overrated anyway.
             System.out.println("Not Adult");
         }
-
-        // Pro tip: Always close your Scanner to avoid resource leaks!
-        // (Okay fine, in small programs like this it's not critical, but good habits
-        // die hard.)
-        sc.close();
     }
 }
