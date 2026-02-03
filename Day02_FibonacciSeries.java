@@ -32,14 +32,15 @@ public class Day02_FibonacciSeries {
         Scanner sc = new Scanner(System.in);
 
         // How many Fibonacci numbers do you want? Let's find out.
-        System.out.print("Enter the number of terms: ");
+        System.out.println("Enter the number of terms: ");
         int n = sc.nextInt();
 
-        // The first two numbers in Fibonacci are always 0 and 1
+        // The first two numbers in Fibonacci are always 0 and 15
+        
         // Think of them as the "seed" numbers that start everything
         int first = 0, second = 1;
 
-        System.out.println("Fibonacci Series:");
+        System.out.println("Fibonacci Series:" + n);
 
         // Generate and print the Fibonacci sequence
         for (int i = 1; i <= n; i++) {
