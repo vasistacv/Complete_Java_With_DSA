@@ -31,7 +31,7 @@ public class Day02_FibonacciSeries {
         // Setting up our trusty Scanner to grab user input
         Scanner sc = new Scanner(System.in);
 
-        // How many Fibonacci numbers do you want? Let's find out.
+        // How many Fibonacci numbers do you want? Let's find out! Classic interview question.
         System.out.println("Enter the number of terms: ");
         int n = sc.nextInt();
 
