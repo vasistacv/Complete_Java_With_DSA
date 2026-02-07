@@ -1,7 +1,7 @@
 
 /**
  * Day 04: Compare Two Numbers
- * Basic comparison to check which number is greater or if they're equal.
+ * Basic comparison problem to check which number is greater or if they're equal.
  */
 
 import java.util.*;
