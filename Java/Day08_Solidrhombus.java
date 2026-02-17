@@ -1,3 +1,9 @@
+
+/**
+ * Day 08: Solid Rhombus Pattern
+ * Creating a rhombus using stars and spaces.
+ */
+
 import java.util.*;
 
 public class Day08_Solidrhombus {
